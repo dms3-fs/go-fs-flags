@@ -8,7 +8,7 @@ import (
 var LowMemMode bool
 
 func init() {
-	if os.Getenv("IPFS_LOW_MEM") != "" {
+	if os.Getenv("DMS3FS_LOW_MEM") != "" {
 		LowMemMode = true
 	}
 }
